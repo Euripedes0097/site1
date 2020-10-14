@@ -1,0 +1,71 @@
+body
+{
+    
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+main
+{
+    position: relative;
+    top: 120px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    height: 1200px;
+}
+#menu
+{
+    background-color: rgb(88, 66, 62);
+    position: fixed;
+    width: 1900px;
+    height: 70px;
+    top: -5px;
+    left: -20px;
+}
+
+#menu ul {
+    list-style: none;
+    margin: 0;padding: 0;
+}
+
+#menu ul li {
+    float: left;
+    position: relative;
+    
+}
+
+#menu ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: gainsboro;
+    background-color:rgb(88, 66, 62);
+    padding: 5px 10px;
+    border: 1px solid gainsboro;
+    margin-right: -5px;
+    width: 200px;
+    text-align: center;
+}
+
+#menu ul li ul {
+    display: none;
+    position: absolute;
+    padding-top: 2px;
+}
+
+
+#menu ul li ul li a {
+    width: 110px;
+    margin-top: -1px;
+}
+
+#menu ul li ul li a:hover  {
+    background-color: crimson;
+}
+
+
+#menu li:hover ul {
+    display: block;
+}
+
+
+#menu ul li a:hover {
+    background-color: crimson;
+}
