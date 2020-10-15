@@ -1,16 +1,28 @@
 body
 {
-    
+    background-color: rgb(240, 237, 231);
     font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
 }
 main
 {
     position: relative;
-    top: 120px;
+    top: 45px;
     background-color: rgb(255, 255, 255);
     margin: 0 auto;
     height: 1200px;
+    width: 96%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.116);
 }
+
+#logo
+{
+    position: fixed;
+    left: 70px;
+    top: 3px;
+    width: 192px;
+    height: 71;
+}
+
 #menu
 {
     background-color: rgb(88, 66, 62);
@@ -23,25 +35,31 @@ main
 
 #menu ul {
     list-style: none;
-    margin: 0;padding: 0;
+    margin-left: 100px;padding: 10px;
 }
 
 #menu ul li {
     float: left;
     position: relative;
+    left: 240px;
+    
     
 }
 
 #menu ul li a {
+    position: relative;
+    top: -21px;
     display: inline-block;
     text-decoration: none;
     color: gainsboro;
     background-color:rgb(88, 66, 62);
-    padding: 5px 10px;
-    border: 1px solid gainsboro;
-    margin-right: -5px;
+    
+    margin-left: 0px;
     width: 200px;
+    
+    padding: 23px 0;
     text-align: center;
+    
 }
 
 #menu ul li ul {
@@ -50,14 +68,20 @@ main
     padding-top: 2px;
 }
 
-
 #menu ul li ul li a {
-    width: 110px;
+    position: relative;
+    width: 200px;
+    
     margin-top: -1px;
+    left: -350px;
+    top: -22px;
+    
+    text-align: center;
 }
 
 #menu ul li ul li a:hover  {
-    background-color: crimson;
+    background-color: rgb(255, 235, 215);
+    color: black;
 }
 
 
@@ -67,5 +91,6 @@ main
 
 
 #menu ul li a:hover {
-    background-color: crimson;
+    background-color: rgb(255, 235, 215);
+    color: black;
 }
