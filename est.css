@@ -17,9 +17,23 @@ main
 
 article
 {
+    position: relative;
+    left: 200px;
     padding-top: 50px;
+    width: 500px;
 }
 
+p
+{
+    font-size: 25px;
+    color: rgb(110, 110, 110);
+    text-align: justify;
+}
+.titulo
+{
+    color: rgb(80, 49, 0);
+    font-size: 40px;
+}
 #logo
 {
     position: fixed;
